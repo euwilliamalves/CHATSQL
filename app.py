@@ -59,7 +59,7 @@ if not banco.get_usable_table_names():
 # 4. Modelo
 @st.cache_resource
 def configurar_llm(api_key):
-    return ChatOpenAI(model = "gpt-3.5-turbo", temperature = 0.5, api_key = api_key)
+    return ChatOpenAI(model = "gpt-4o-mini", temperature = 0.5, api_key = api_key)
 
 llm = configurar_llm(key)
 

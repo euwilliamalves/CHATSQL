@@ -67,7 +67,7 @@ Entre as informações disponíveis estão:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/euwilliamalves/Streamlit.git
+git clone [URL_DO_REPOSITORIO]
 cd Streamlit
 ```
 
